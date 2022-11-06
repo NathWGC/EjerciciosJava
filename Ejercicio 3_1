@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        Coche miCoche = new Coche()
+
+    }
+    public static int suma(int a, int b) {
+        a + b;
+    }
+    Class Coche {
+        public int puerta = 0;
+
+    }
+}
