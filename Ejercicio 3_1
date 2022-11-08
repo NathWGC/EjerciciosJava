@@ -1,13 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        Coche miCoche = new Coche()
+        suma(10,40, 10);
 
-    }
-    public static int suma(int a, int b) {
-        a + b;
-    }
-    Class Coche {
-        public int puerta = 0;
+        Coche miCoche = new Coche();
 
+        miCoche.PonerPuertas();
+        miCoche.PonerPuertas();
+        System.out.println("La cantidad de puertas es: " + miCoche.PonerPuertas);
+    }
+    public static void suma(int a, int b, int c){
+        int resultado;
+        resultado = a + b + c;
+        System.out.println(resultado);
+    }
+    static class Coche {
+        public int PonerPuertas = 3;
+
+        public void PonerPuertas() {
+            this.PonerPuertas++;
+        }
     }
 }
